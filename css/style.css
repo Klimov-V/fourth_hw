@@ -1,0 +1,53 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+
+body {
+    font-size: 14px;
+    font-family: "ProximaNova", sans-serif;
+    line-height: 20px;
+    color: #9d9d9d;
+    font-weight: 300;
+/*    background-color: #454545;*/
+}
+.container {
+    margin: 0 auto;
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+.card {
+    text-align: center;
+    width: 25%;
+    padding: 50px;
+}
+.icon {
+    padding: 15px;
+}
+
+.card:hover .icon_wraper {
+    background-color: #fff;
+}
+.icon_wraper {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: #1275b9;
+    border: 1px solid #1275b9;
+    transition: all .2s ease-in;
+}
+
+.title {
+    color: #000;
+    line-height: 24px;
+    font-weight: normal;
+}
+.card span,
+.card i {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    color: #000;
+    font-weight: 700;
+}
