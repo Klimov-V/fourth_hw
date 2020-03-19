@@ -18,8 +18,17 @@ body {
     width: 25%;
     padding: 50px;
 }
-.icon {
-    padding: 15px;
+.icon:before {
+    font-size: 30px;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: all .2s ease-in;
+}
+.card:hover .icon:before {
+    color: #2a69a6;
 }
 
 .card:hover .icon_wraper {
@@ -34,6 +43,8 @@ body {
     background-color: #1275b9;
     border: 1px solid #1275b9;
     transition: all .2s ease-in;
+    
+    position: relative;
 }
 
 .title {
